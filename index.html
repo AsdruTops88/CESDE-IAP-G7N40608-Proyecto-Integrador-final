@@ -87,9 +87,90 @@
       </p>
       <a href="#" class="boton-enlace">Ver proyecto</a>
     </article>
-    
+
+   </section>
+
+   <section id="contacto">
+    <h2>Contacto</h2>
+    <p> ¿Quieres saber más? Completa el formulario y te respondo pronto.</p>
+
+    <form action="#" method="post">
+
+      <label for="nombre">Nombre completo *</label>
+      <input 
+      typoe="text"
+      id="nombre"
+      name="nombre"
+      placeholder="Ej: Alejandra Orozco"
+      required
+      minlength="3"
+
+      />
+
+      <label for="email">Correo electronico *</label>
+      <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="tucorreo@ejemplo.com"
+      required
+      />
+      <label for="telefono">Teléfono</label>
+      <input
+      type="tel"
+      id="telefono"
+      name="telefono"
+      placeholder="Ej: 3001234567"
+      pattern="[0-9]{7,10}"
+      />
+
+      <label for="motivo">Motivo de contacto *</label>
+      <select id="motivo" name="motivo" required>
+        
+        <option value="">- Selecciona una opción -</option>
+        <option value="colaboracion">Propuesta de colaboración</option>
+        <option value="pregunta">Pregunta sobre el proyecto</option>
+        <option value="otro">Otro motivo</option>
+      </select>
+
+      <fieldset>
+        <legend>¿Cómo me conociste? *</legend>
+
+        <label class="opcion-radio">
+          <input type="radio" name="referido" value="redes" required />
+          Redes sociales
+        </label>
+
+        <label class="opcion-radio">
+          <input type="radio" name="referido" value="otro" />
+          Otro
+        </label>
+      </fieldset>
+
+      <label for="mensaje">Mensaje *</label>
+
+      <textarea
+      id="mensaje"
+      name="mensaje"
+      rows="5"
+      placeholder="Escribe tu mensaje aquí..."
+      required
+      minlength="10"
+      ></textarea>
+
+      <button type="submit">Enviar mensaje</button>
+
+
+    </form>
    </section>
 
   </main>
+
+  <footer>
+    <p>
+      &copy; 2026 - Mi portafolio | 
+      Proyecto Final de Introducción a la Programación
+    </p>
+  </footer>
 </body>
 </html>
