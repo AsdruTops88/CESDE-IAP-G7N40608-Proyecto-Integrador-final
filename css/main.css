@@ -72,3 +72,17 @@ main {
     margin: 0 auto;
     padding: var(--espacio);
 }
+
+section {
+    margin-bottom: calc(var(--espacio) * 2.5);
+}
+
+section h2 {
+    font-size: 1.5rem;
+    color: var(--color-primario);
+    border-bottom: 2px solid var(--color-primario);
+    padding-bottom: 0.4rem;
+    margin-bottom: var(--espacio);
+}
+
+
