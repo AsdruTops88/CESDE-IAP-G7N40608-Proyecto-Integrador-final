@@ -49,4 +49,26 @@ nav {
     gap: 0.5rem;
 }
 
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.3rem 0.8rem;
+    border-radius: var(--radio-borde);
+    transition: background-color 0.2s ease;
+}
 
+nav a:hover{
+    background-color: var(--color-primario);
+}
+
+nav a:focus{
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+main {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: var(--espacio);
+}
