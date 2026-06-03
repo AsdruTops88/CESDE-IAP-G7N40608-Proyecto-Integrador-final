@@ -1,0 +1,23 @@
+:root{
+    --color-primario: #2c7be5;
+    --color-oscuro: #1a1a2e;
+    --color-claro: #f4f7fb;
+    --color-texto: #333333;
+    --color-borde: #cccccc;
+    --radio-border: 6px;
+    --espacio: 1rem;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: var(--color-texto);
+    background-color: var(--color-claro);
+    line-height: 1.6;
+}
