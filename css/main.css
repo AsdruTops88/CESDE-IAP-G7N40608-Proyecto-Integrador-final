@@ -201,7 +201,19 @@ flex: 1;
     content: " →"; 
 }
 
-#
+#contacto p {
+    margin-bottom: var(--espacio);
+}
+
+form {
+    background-color: white;
+    border: 1px solid var(--color-borde);
+    border-radius: var(--radio-borde);
+padding: var(--espacio);
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
 
 
 
